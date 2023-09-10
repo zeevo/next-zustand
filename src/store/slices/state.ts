@@ -1,5 +1,6 @@
 import { StateCreator } from "zustand";
 import { AppSlice } from "./app";
+// import { OtherSlice } from "./other";
 
 export type State = AppSlice /* & OtherSlice */;
 
